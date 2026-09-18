@@ -1041,11 +1041,24 @@ img {
   background: rgba(255, 255, 255, 0.06);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: background 0.3s ease;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .info-item:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: var(--orange);
+  transform: translateX(6px);
+}
+
+.info-label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--orange);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
 }
 
 .info-item i {
@@ -1055,8 +1068,9 @@ img {
 }
 
 .info-item p {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.95);
   font-size: 1rem;
+  margin: 0;
 }
 
 /* Contact Form */

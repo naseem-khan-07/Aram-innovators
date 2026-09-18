@@ -311,5 +311,40 @@ document.addEventListener('DOMContentLoaded', () => {
         const scrollPercent = (scrollTop / docHeight) * 100;
         progressBar.style.width = scrollPercent + '%';
     });
+    /* ==========================================================================
+       12. CONTACT FORM -> WHATSAPP SUBMISSION
+       Sends formatted message directly to WhatsApp (+91 8778627498)
+       ========================================================================== */
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const nameInput = document.getElementById('senderName');
+            const emailInput = document.getElementById('senderEmail');
+            const messageInput = document.getElementById('senderMessage');
+
+            const name = nameInput ? nameInput.value.trim() : '';
+            const email = emailInput ? emailInput.value.trim() : '';
+            const message = messageInput ? messageInput.value.trim() : '';
+
+            if (!name || !email || !message) {
+                alert('Please fill in all fields.');
+                return;
+            }
+
+            const phone = "918778627498";
+            const text = `*New Inquiry from SIH-2026 Website*\n\n*Name:* ${name}\n*Email:* ${email}\n*Message:* ${message}`;
+            const encodedText = encodeURIComponent(text);
+            
+            // wa.me URL works on both mobile (opens app) and desktop (opens WhatsApp Web)
+            const whatsappUrl = `https://api.whatsapp.com/send?phone=${phone}&text=${encodedText}`;
+
+            // Try opening in new tab, or redirect if popup blocked
+            const win = window.open(whatsappUrl, '_blank');
+            if (!win || win.closed || typeof win.closed === 'undefined') {
+                window.location.href = whatsappUrl;
+            }
+        });
+    }
 
 });
