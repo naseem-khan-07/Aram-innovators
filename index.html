@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-Powered Autonomous Search & Rescue Drone by ARAM Innovators for SIH 2026">
+    <title>ARAM Innovators | AI-Powered Autonomous Rescue Drone | SIH 2026</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- 1. TOP BAR & NAVIGATION -->
+    <header class="top-nav" id="top-nav">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="#" class="logo-link">
+                    <img src="assets/aram-logo.png" alt="ARAM Innovators Team Logo" class="team-logo">
+                </a>
+            </div>
+            <button class="hamburger-menu" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#problem-statement">Problem Statement</a></li>
+                    <li><a href="#our-solution">Our Solution</a></li>
+                    <li><a href="#tech-stack">Tech Stack</a></li>
+                    <li><a href="#our-team">Our Team</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="nav-right">
+                <img src="assets/sih-header-logos.png" alt="SIH and Ministry Logos" class="sih-logos">
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section class="hero reveal" id="hero">
+        <div class="particles-background" id="particles-js"></div>
+        <div class="hero-container">
+            <img src="assets/sih-hero-pm-banner.png" alt="SIH 2026 PM Banner" class="hero-banner">
+            <h1 class="hero-title">AI-Powered Autonomous Search & Rescue Drone</h1>
+            <p class="hero-subtitle">Saving Lives When Every Second Counts — SIH 2026 | Problem Statement 26177 | Qualcomm Inc</p>
+            <div class="hero-ctas">
+                <a href="#our-solution" class="btn btn-primary">Explore Our Solution</a>
+                <a href="#our-team" class="btn btn-secondary">Meet The Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. PROBLEM STATEMENT -->
+    <section class="problem-statement reveal" id="problem-statement">
+        <div class="container">
+            <h2 class="section-title">OUR PROBLEM STATEMENT</h2>
+            <p class="lead-text">A deployable AI-powered autonomous drone that aids search-and-rescue operations by detecting people and hazards, thereby improving responder safety and reducing victim discovery time.</p>
+            
+            <div class="badges">
+                <span class="badge"><i class="fa-solid fa-hashtag"></i> ID: 26177</span>
+                <span class="badge"><i class="fa-solid fa-building"></i> Organization: Qualcomm Inc</span>
+                <span class="badge"><i class="fa-solid fa-microchip"></i> Category: Hardware</span>
+                <span class="badge"><i class="fa-solid fa-drone"></i> Theme: Robotics & Drones</span>
+            </div>
+
+            <div class="ps-content">
+                <div class="ps-text">
+                    <div class="ps-subsection">
+                        <h3>Background & Objective</h3>
+                        <p>India’s vast and diverse geography makes it highly vulnerable to natural disasters such as floods, landslides, and earthquakes. Traditional search and rescue operations are often hindered by inaccessible terrain, hazardous conditions, and delays in initial response. The objective is to design a highly capable, autonomous aerial platform that acts as a first responder, establishing situational awareness and rapidly pinpointing victims before ground teams arrive, significantly increasing survival rates.</p>
+                    </div>
+                    <div class="ps-subsection">
+                        <h3>System Description</h3>
+                        <p>Our solution is an end-to-end autonomous drone platform that seamlessly integrates a multi-modal sensor suite (RGB, Thermal, UWB Radar) with cutting-edge Edge AI processing. Operating independently of cloud infrastructure, it navigates complex, GPS-denied environments using advanced SLAM techniques. Upon identifying survivors and assessing surrounding hazards, it relays encrypted, geo-tagged intelligence directly to field commanders, ensuring a swift and coordinated rescue effort.</p>
+                    </div>
+                </div>
+                <div class="ps-video">
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/2u_8AUpK95M" title="ARAM Innovators Rescue Drone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <img src="assets/normal-drone-photo.png" alt="Drone Video Thumbnail Placeholder" class="video-thumbnail-fallback" style="display:none;">
+                    </div>
+                </div>
+            </div>
+            <div class="ps-cta">
+                <a href="#our-solution" class="btn btn-primary">Our Solution <i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. KEY STATS / NUMBERS COUNTER SECTION -->
+    <section class="key-stats reveal" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3 class="stat-number" data-count="20">0</h3><span class="stat-suffix">+ km</span>
+                    <p class="stat-label">Communication Range</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number" data-count="15">0</h3><span class="stat-suffix"> FPS</span>
+                    <p class="stat-label">Edge AI Processing</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number" data-count="8">0</h3>
+                    <p class="stat-label">Onboard Sensors</p>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-prefix">< </span><h3 class="stat-number" data-count="200">0</h3><span class="stat-suffix">ms</span>
+                    <p class="stat-label">Detection Latency</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number" data-count="30">0</h3><span class="stat-suffix"> min</span>
+                    <p class="stat-label">Flight Endurance</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="stat-number" data-count="13">0</h3>
+                    <p class="stat-label">Autonomous Steps</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. OUR SOLUTION SECTION -->
+    <section class="our-solution reveal" id="our-solution">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Proposed Solution</h2>
+                <h3 class="section-subtitle">End-to-End Autonomous Disaster Response System</h3>
+                <p class="solution-intro">Our comprehensive system integrates robust hardware, advanced multi-modal AI, and secure communications to create a highly autonomous aerial rescue platform. By fusing data from multiple sensors at the edge, we achieve high-confidence detection in complex environments with zero cloud dependency.</p>
+            </div>
+
+            <div class="tabs-container">
+                <ul class="tab-links">
+                    <li class="tab-link active" data-tab="tab-sensor-suite">Sensor Suite</li>
+                    <li class="tab-link" data-tab="tab-edge-ai">Edge AI Pipeline</li>
+                    <li class="tab-link" data-tab="tab-navigation">Navigation & SLAM</li>
+                    <li class="tab-link" data-tab="tab-communication">Communication & GCS</li>
+                    <li class="tab-link" data-tab="tab-detection">Detection Pipeline</li>
+                    <li class="tab-link" data-tab="tab-innovation">Innovation & USP</li>
+                </ul>
+
+                <div class="tab-content-wrapper">
+                    <!-- Tab 1: Sensor Suite -->
+                    <div class="tab-content active" id="tab-sensor-suite">
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-camera"></i> <strong>OAK-D Lite Stereo Camera</strong> — 4 TOPS AI, 30 FPS RGB+depth, 72° FoV, USB-C</li>
+                            <li><i class="fa-solid fa-temperature-full"></i> <strong>MLX90640 Thermal Array</strong> — 32×24 IR, −40°C to +300°C, 55° FoV, I²C at 16 Hz</li>
+                            <li><i class="fa-solid fa-satellite-dish"></i> <strong>X4M200 UWB Radar</strong> — Respiration + micro-motion, 0.4–5 m, ISM 7.29 GHz, UART</li>
+                            <li><i class="fa-solid fa-radar"></i> <strong>RPLIDAR A1</strong> — 360° 2D scan, 12 m range, 8000 sps, UART</li>
+                            <li><i class="fa-solid fa-ruler-vertical"></i> <strong>TF02-Pro LiDAR</strong> — Single-point, 40 m, 100 Hz, I²C / UART</li>
+                            <li><i class="fa-solid fa-eye"></i> <strong>H-Flow Optical Flow</strong> — PMW3901 + VL53L1X ToF, SPI</li>
+                            <li><i class="fa-solid fa-location-dot"></i> <strong>M10 GNSS</strong> — GPS L1 + GLONASS, 10 Hz, UART</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab 2: Edge AI Pipeline -->
+                    <div class="tab-content" id="tab-edge-ai">
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-microchip"></i> <strong>Companion Computer: Radxa ROCK 5C</strong> — RK3588S2 SoC, 8 GB LPDDR4X, 6 TOPS NPU, USB 3.0, GPIO 40-pin, passive cooling</li>
+                            <li><i class="fa-solid fa-brain"></i> <strong>AI Model: YOLOv8n</strong> trained on VisDrone + disaster-specific datasets. Exported to RKNN INT8 for 6 TOPS NPU.</li>
+                            <li><i class="fa-solid fa-project-diagram"></i> <strong>Inference Pipeline:</strong> Camera → RKNN YOLOv8n → Bounding Boxes → Multi-sensor Confirmation → Geo-tagged Alert</li>
+                            <li><i class="fa-solid fa-list-check"></i> <strong>Key capabilities:</strong> Person detection, fire/smoke detection, collapsed structures, flood water, debris</li>
+                            <li><i class="fa-solid fa-bolt"></i> <strong>Edge-first architecture:</strong> No cloud dependency, <200ms latency, works in connectivity-denied environments</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab 3: Navigation & SLAM -->
+                    <div class="tab-content" id="tab-navigation">
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-plane"></i> <strong>Flight Controller: Pixhawk 6C Mini</strong> — STM32H743, dual IMU, barometer, MAVLink 2.0</li>
+                            <li><i class="fa-solid fa-route"></i> <strong>Dual-Mode Navigation:</strong>
+                                <ul>
+                                    <li><strong>Mode A (Outdoor):</strong> M10 GNSS + barometric altitude → waypoint following via ArduPilot/PX4</li>
+                                    <li><strong>Mode B (GPS-denied):</strong> VIO (OpenVINS on OAK-D stereo) + LiDAR SLAM (SLAM Toolbox with RPLIDAR A1)</li>
+                                </ul>
+                            </li>
+                            <li><i class="fa-solid fa-map"></i> <strong>Autonomous Path Planning:</strong> Nav2 stack (ROS 2 Humble) with TEB local planner, costmap from LiDAR, dynamic obstacle avoidance</li>
+                            <li><i class="fa-solid fa-arrows-up-down"></i> <strong>Altitude Hold:</strong> TF02-Pro single-point LiDAR + barometer fusion</li>
+                            <li><i class="fa-brands fa-linux"></i> <strong>Software Stack:</strong> ROS 2 Humble on Ubuntu 22.04</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab 4: Communication & GCS -->
+                    <div class="tab-content" id="tab-communication">
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-wifi"></i> <strong>SIYI HM30</strong> — Full HD video + telemetry, 30 km LOS, OFDM 2.4 GHz, AES-256 encryption, dual-antenna MIMO</li>
+                            <li><i class="fa-solid fa-laptop-code"></i> <strong>Ground Control:</strong> QGroundControl with MAVLink telemetry overlay, live map with detected person markers</li>
+                            <li><i class="fa-solid fa-network-wired"></i> <strong>Data Pipeline:</strong> Detection coordinates + thermal + UWB confirmation → GCS map overlay → first responder app</li>
+                            <li><i class="fa-solid fa-sd-card"></i> <strong>Backup:</strong> Onboard SD card logging for post-mission analysis</li>
+                        </ul>
+                    </div>
+
+                    <!-- Tab 5: Detection Pipeline -->
+                    <div class="tab-content" id="tab-detection">
+                        <ol class="pipeline-timeline">
+                            <li>Pre-flight auto-check (battery, sensors, comms)</li>
+                            <li>Mission upload via QGroundControl (search grid / polygon)</li>
+                            <li>Autonomous takeoff + altitude hold (TF02-Pro + baro)</li>
+                            <li>Navigate waypoint grid (GNSS / VIO fallback)</li>
+                            <li>Continuous RGB inference (YOLOv8n @ 15 FPS)</li>
+                            <li>Thermal overlay scan (MLX90640 heat signatures)</li>
+                            <li>UWB radar life-sign confirmation (breathing, micro-motion)</li>
+                            <li>Multi-sensor fusion (RGB ∩ Thermal ∩ UWB → confirmed survivor)</li>
+                            <li>Geo-tag survivor (lat/lon/alt + timestamp + confidence)</li>
+                            <li>Risk assessment (triage: fire, flood, structural collapse near survivor)</li>
+                            <li>Priority ranking (critical > high > medium > low)</li>
+                            <li>Encrypted telemetry burst to GCS (SIYI HM30)</li>
+                            <li>Auto-RTL or proceed to next waypoint</li>
+                        </ol>
+                    </div>
+
+                    <!-- Tab 6: Innovation & USP -->
+                    <div class="tab-content" id="tab-innovation">
+                        <ul class="feature-list">
+                            <li><i class="fa-solid fa-star"></i> <strong>Dual-mode autonomy</strong> with seamless GNSS → VIO+SLAM handoff</li>
+                            <li><i class="fa-solid fa-check-double"></i> <strong>Triple-confirmation survivor detection</strong> (RGB + Thermal + UWB)</li>
+                            <li><i class="fa-solid fa-cloud-arrow-down"></i> <strong>Full edge-first AI</strong> — zero cloud dependency</li>
+                            <li><i class="fa-solid fa-map-location-dot"></i> <strong>Geo-tagged intelligence</strong> with risk-based prioritization</li>
+                            <li><i class="fa-solid fa-shield-halved"></i> <strong>Hazard-aware path planning</strong></li>
+                            <li><i class="fa-solid fa-cubes"></i> <strong>ROS 2 modular architecture</strong> — field-upgradeable</li>
+                            <li><i class="fa-solid fa-plug"></i> <strong>Plug-and-play sensor bus</strong></li>
+                            <li><i class="fa-solid fa-stopwatch"></i> Designed for <strong>rapid field deployment</strong> in < 5 minutes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. SYSTEM ARCHITECTURE DIAGRAM SECTION -->
+    <section class="architecture reveal" id="architecture">
+        <div class="container">
+            <h2 class="section-title">System Architecture</h2>
+            <div class="architecture-diagram">
+                <div class="arch-block sensors">
+                    <i class="fa-solid fa-microchip"></i>
+                    <h4>Sensors</h4>
+                    <p>OAK-D, MLX90640, UWB, RPLIDAR, TF02, GPS</p>
+                </div>
+                <div class="arch-line line-1"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="arch-block ai-core">
+                    <i class="fa-solid fa-brain"></i>
+                    <h4>Radxa ROCK 5C</h4>
+                    <p>AI Processing & Vision</p>
+                </div>
+                <div class="arch-line line-2"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="arch-block flight-control">
+                    <i class="fa-solid fa-plane-up"></i>
+                    <h4>Pixhawk 6C Mini</h4>
+                    <p>Flight Control & Nav</p>
+                </div>
+                <div class="arch-line line-3"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="arch-block comms">
+                    <i class="fa-solid fa-satellite-dish"></i>
+                    <h4>SIYI HM30</h4>
+                    <p>Communication Link</p>
+                </div>
+                <div class="arch-line line-4"><i class="fa-solid fa-arrow-right"></i></div>
+                <div class="arch-block gcs">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h4>GCS</h4>
+                    <p>QGroundControl</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. TECH STACK SECTION -->
+    <section class="tech-stack reveal" id="tech-stack">
+        <div class="container">
+            <h2 class="section-title">Our Tech Stack</h2>
+            
+            <div class="stack-category">
+                <h3>Hardware</h3>
+                <div class="badges-wrap">
+                    <span class="tech-badge">Radxa ROCK 5C</span>
+                    <span class="tech-badge">Pixhawk 6C Mini</span>
+                    <span class="tech-badge">OAK-D Lite</span>
+                    <span class="tech-badge">MLX90640</span>
+                    <span class="tech-badge">X4M200</span>
+                    <span class="tech-badge">RPLIDAR A1</span>
+                    <span class="tech-badge">TF02-Pro</span>
+                    <span class="tech-badge">SIYI HM30</span>
+                </div>
+            </div>
+
+            <div class="stack-category">
+                <h3>Software</h3>
+                <div class="badges-wrap">
+                    <span class="tech-badge">ROS 2 Humble</span>
+                    <span class="tech-badge">Ubuntu 22.04</span>
+                    <span class="tech-badge">ArduPilot/PX4</span>
+                    <span class="tech-badge">Nav2</span>
+                    <span class="tech-badge">OpenVINS</span>
+                    <span class="tech-badge">SLAM Toolbox</span>
+                </div>
+            </div>
+
+            <div class="stack-category">
+                <h3>AI/ML</h3>
+                <div class="badges-wrap">
+                    <span class="tech-badge">YOLOv8n</span>
+                    <span class="tech-badge">RKNN Toolkit</span>
+                    <span class="tech-badge">TensorRT</span>
+                    <span class="tech-badge">VisDrone Dataset</span>
+                </div>
+            </div>
+
+            <div class="stack-category">
+                <h3>Communication & Tools</h3>
+                <div class="badges-wrap">
+                    <span class="tech-badge">MAVLink 2.0</span>
+                    <span class="tech-badge">OFDM 2.4 GHz</span>
+                    <span class="tech-badge">AES-256</span>
+                    <span class="tech-badge">QGroundControl</span>
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">C++</span>
+                    <span class="tech-badge">OpenCV</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. OUR TEAM -->
+    <section class="our-team reveal" id="our-team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet Our Team</h2>
+                <h3 class="section-subtitle">Aram Innovators — 6 Passionate Engineers</h3>
+            </div>
+
+            <div class="team-grid">
+                <!-- Member 1 -->
+                <div class="team-card">
+                    <div class="team-img-wrapper">
+                        <img src="assets/TL.png" alt="Member 1" class="team-img" style="object-position: center -15%;">
+                    </div>
+                    <h4>Sundararooban D</h4>
+                    <p class="role">Team Lead & Flight Systems Engineer</p>
+                    <a href="https://www.linkedin.com/in/sundararooban-d-491695394/" target="_blank" class="linkedin-link"><i class="fa-brands fa-linkedin"></i> Connect</a>
+                </div>
+                <!-- Member 2 -->
+                <div class="team-card">
+                    <div class="team-img-wrapper">
+                        <img src="assets/member-2.jpeg" alt="Member 2" class="team-img" style="object-position: center 75%;">
+                    </div>
+                    <h4>Deepika C</h4>
+                    <p class="role">Embedded & Sensor Integration Engineer</p>
+                    <a href="https://www.linkedin.com/in/deepika-c-93b730340/" target="_blank" class="linkedin-link"><i class="fa-brands fa-linkedin"></i> Connect</a>
+                </div>
+                <!-- Member 3 -->
+                <div class="team-card">
+                    <div class="team-img-wrapper">
+                        <img src="assets/azeem.png" alt="Member 3" class="team-img">
+                    </div>
+                    <h4>Azeem Khan</h4>
+                    <p class="role">Autonomy & Software Engineer</p>
+                    <a href="https://www.linkedin.com/in/azeem-khan-117a37385/" target="_blank" class="linkedin-link"><i class="fa-brands fa-linkedin"></i> Connect</a>
+                </div>
+                <!-- Member 4 -->
+                <div class="team-card">
+                    <div class="team-img-wrapper">
+                        <img src="assets/member-4.jpeg" alt="Member 4" class="team-img">
+                    </div>
+                    <h4>Naseem Khan</h4>
+                    <p class="role">Ground Station & AI Analytics Engineer</p>
+                    <a href="https://www.linkedin.com/in/naseem-khan-ab9997373/" target="_blank" class="linkedin-link"><i class="fa-brands fa-linkedin"></i> Connect</a>
+                </div>
+                <!-- Member 5 -->
+                <div class="team-card">
+                    <div class="team-img-wrapper">
+                        <img src="assets/member-5.jpeg" alt="Member 5" class="team-img" style="object-position: center 33%;">
+                    </div>
+                    <h4>Thava Prakash</h4>
+                    <p class="role">Data & Sensor Fusion Engineer</p>
+                    <a href="https://www.linkedin.com/in/thava-prakash-1b7081374/" target="_blank" class="linkedin-link"><i class="fa-brands fa-linkedin"></i> Connect</a>
+                </div>
+                <!-- Member 6 -->
+                <div class="team-card">
+                    <div class="team-img-wrapper">
+                        <img src="assets/member-6.jpeg" alt="Member 6" class="team-img" style="object-position: center 22%;">
+                    </div>
+                    <h4>Atchaya Ravikumar</h4>
+                    <p class="role">AI & Computer Vision Engineer</p>
+                    <a href="https://www.linkedin.com/in/atchaya-ravikumar-50857b374/" target="_blank" class="linkedin-link"><i class="fa-brands fa-linkedin"></i> Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. PROJECT GALLERY -->
+    <section class="gallery reveal" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Project Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/drone.png" alt="Autonomous Rescue Drone Build">
+                    <div class="overlay">
+                        <p>Autonomous Rescue Drone Build</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/components.jpg" alt="On-Device AI Vision Payload">
+                    <div class="overlay">
+                        <p>On-Device AI Vision Payload</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/thermal.jpg" alt="Real-Time Thermal Hazard Map">
+                    <div class="overlay">
+                        <p>Real-Time Thermal Hazard Map</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/work4.jpg" alt="Disaster Search Field Test">
+                    <div class="overlay">
+                        <p>Disaster Search Field Test</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. CONTACT US -->
+    <section class="contact reveal" id="contact">
+        <div class="container">
+            <h2 class="section-title text-light">Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>araminnovators@gmail.com</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+91 8778627498</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form onsubmit="event.preventDefault();">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" class="form-control" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 ARAM Innovators | Smart India Hackathon 2026</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
